@@ -1,0 +1,358 @@
+.banner-txt {
+  position: absolute;
+  top: 17%;
+  left: 70%;
+  color: white;
+}
+.banner-txt .head {
+  font-size: 40px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.banner-txt .des {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 30;
+  color: white;
+}
+.sub {
+  background-color: #194783;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-left: 40px;
+}
+button :hover {
+  background-color: #faf9f6;
+  color: #194783;
+}
+
+.what {
+  position: relative;
+  margin-top: 35px;
+  left: 5%;
+  width: 80%;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.what .head {
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+}
+.what .des {
+  margin-top: 5px;
+}
+.des {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  color: #4a4a4a;
+}
+.why {
+  position: relative;
+  display: flex;
+  left: 5%;
+  width: 80%;
+  text-align: left;
+  margin-bottom: 50px;
+}
+.why-img {
+  height: 350px;
+  width: 350px;
+}
+
+.why-txt {
+  position: relative;
+  top: 5%;
+  color: black;
+}
+.why-txt .head {
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  position: relative;
+  text-align: center;
+}
+.why-txt .des {
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+.how {
+  display: flex;
+  position: relative;
+  padding-top: 20px;
+  left: 4%;
+  width: 80%;
+}
+.how-img {
+  position: relative;
+  height: 555px;
+  width: 555px;
+}
+.how-txt {
+  position: relative;
+  margin-top: 5%;
+}
+.how .how-txt .head {
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  position: relative;
+  text-align: center;
+}
+.how .how-txt .des {
+  margin-top: 10%;
+  margin-left: 3%;
+}
+.available {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin-left: 5%;
+}
+.available img {
+  width: 20%;
+  height: 20%;
+  margin-top: 5%;
+  margin-left: 3%;
+}
+.ava-txt {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.available img:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 660px) {
+  .banner-txt .head {
+    padding-top: 120px;
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .banner-txt .des {
+    display: none;
+  }
+
+  .sub {
+    background-color: #194783;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+
+  .what .head {
+    font-size: 30px;
+  }
+  .what .des {
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.4px;
+  }
+  .why {
+    flex-direction: column;
+  }
+  .why-img {
+    height: 300px;
+    width: 300px;
+  }
+  .why-txt .head {
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+  }
+
+  .how {
+    flex-direction: column;
+  }
+  .how-img {
+    height: 300px;
+    width: 300px;
+  }
+  .how-txt .des {
+    letter-spacing: normal;
+  }
+
+  .available {
+    margin-top: 0;
+  }
+  .available img {
+    width: 20%;
+    height: 20%;
+    margin-top: 15%;
+  }
+  .ava-txt {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 50px;
+  }
+}
+/* Medium devices */
+@media (min-width: 650px) and (max-width: 750px) {
+  .banner-txt .head {
+    font-size: 25px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .banner-txt .des {
+    font-size: 10px;
+    line-height: 20px;
+    font-weight: 20;
+    color: white;
+  }
+
+  .sub {
+    background-color: #194783;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+
+  .what .head {
+    font-size: 30px;
+  }
+  .what .des {
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.4px;
+  }
+  .why {
+    flex-direction: column;
+  }
+  .why-img {
+    height: 300px;
+    width: 300px;
+  }
+  .why-txt .head {
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+  }
+
+  .how {
+    flex-direction: column;
+  }
+  .how-img {
+    height: 300px;
+    width: 300px;
+  }
+  .how-txt .des {
+    letter-spacing: normal;
+  }
+
+  .available {
+    margin-top: 0;
+  }
+  .available img {
+    width: 20%;
+    height: 20%;
+    margin-top: 15%;
+  }
+  .ava-txt {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 750px) and (max-width: 1024px) {
+  .banner-txt .head {
+    font-size: 30px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .banner-txt .des {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 25;
+    color: white;
+  }
+
+  .sub {
+    background-color: #194783;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 45px;
+  }
+
+  .what .head {
+    font-size: 30px;
+  }
+  .what .des {
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.4px;
+  }
+  .why {
+    flex-direction: column;
+  }
+  .why-img {
+    height: 300px;
+    width: 500px;
+  }
+  .why-txt .head {
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+  }
+
+  .how {
+    flex-direction: column;
+  }
+  .how-img {
+    height: 500px;
+    width: 500px;
+  }
+  .how-txt .des {
+    letter-spacing: normal;
+  }
+
+  .available {
+    margin-top: 0;
+  }
+  .available img {
+    width: 20%;
+    height: 20%;
+    margin-top: 5%;
+  }
+  .ava-txt {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 50px;
+  }
+}

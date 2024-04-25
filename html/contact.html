@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/contact.css" />
+    <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/foot.css" />
+    <title>Contact</title>
+    <style>
+      * {
+        margin: 1px;
+        padding: 1px;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body style="background-color: #f7f2e6">
+    <!--NAVBAR-->
+    <nav class="navbar">
+      <img
+        src="../img/logo.webp"
+        alt="logo"
+        usemap="#diggie"
+        style="width: 60px; height: 60px; object-fit: cover; margin-left: 80px"
+      />
+      <!--img mapping in logo-->
+      <map name="diggie">
+        <area shape="circle" coords="60,60,90" href="index.html" />
+      </map>
+      <!--links-->
+      <ul class="navlinks">
+        <li class="navitems"><a href="index.html" active>HOME</a></li>
+        <li class="navitems"><a href="blog.html">BLOG</a></li>
+        <li class="navitems"><a href="contact.html">CONTACT</a></li>
+      </ul>
+      <div class="right-nav">
+        <a href="login.html"><button class="login-btn">LOGIN</button></a>
+
+        <a href="starter.html"
+          ><button class="signup-btn">Get started</button></a
+        >
+      </div>
+    </nav>
+
+    <div class="contact-head">
+      <h2>Contact Us</h2>
+      <p>Get in touch and let us know how we can help you.</p>
+    </div>
+
+    <div class="contact">
+      <div class="contact-form">
+        <form>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Name"
+            class="contact-input"
+          />
+          <br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email"
+            class="contact-input"
+          />
+          <br />
+          <input
+            type="text"
+            name="subject"
+            id="subject"
+            placeholder="Subject"
+            class="contact-input"
+          />
+          <br />
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Message"
+            class="contact-input1"
+          ></textarea>
+          <br />
+          <input type="checkbox" class="check" />
+          <label for="checkbox">Keep me updated on DiggieVPN.</label>
+          <br />
+          <br />
+          <input type="submit" value="Send" class="contact-btn" />
+        </form>
+      </div>
+      <div class="contact-img">
+        <img src="../img/5bcbef40e9df4f9b0a2ed152b2d00631.png" class="imgg" />
+      </div>
+    </div>
+
+    <!--Footer-->
+    <footer>
+      <div class="footer">
+        <div class="foot-txt">
+          <ul class="foot-list">
+            <li class="foot-items">
+              <h2 class="foot-head">VPN FOR</h2>
+            </li>
+            <li class="foot-items">
+              <a href="#" class="foot-links">MAC</a>
+            </li>
+            <li class="foot-items">
+              <a href="#" class="foot-links">Windows</a>
+            </li>
+            <li class="foot-items">
+              <a href="#" class="foot-links">Linux</a>
+            </li>
+          </ul>
+
+          <ul class="foot-list">
+            <li class="foot-items">
+              <h2 class="foot-head">About DiggieVPN</h2>
+            </li>
+            <li class="foot-items">
+              <a href="#" class="foot-links">Legal Notice</a>
+            </li>
+            <li class="foot-items">
+              <a href="#" class="foot-links">Terms and conditions</a>
+            </li>
+            <li class="foot-items">
+              <a href="#" class="foot-links">Reviews</a>
+            </li>
+            <li class="foot-items">
+              <a href="#" class="foot-links">Security Audits</a>
+            </li>
+          </ul>
+
+          <ul class="foot-list">
+            <li class="foot-items">
+              <h2 class="foot-head">Features</h2>
+            </li>
+            <li class="foot-items">
+              <a href="#" class="foot-links">Risk free VPN</a>
+            </li>
+            <li class="foot-items">
+              <a href="#" class="foot-links">Plans and Pricing</a>
+            </li>
+            <li class="foot-items">
+              <a href="#" class="foot-links">Routers</a>
+            </li>
+            <li class="foot-items">
+              <a href="#" class="foot-links">Contact us</a>
+            </li>
+            <li class="foot-items">
+              <a href="#" class="foot-links">Sitemap</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright" style="text-align: center; color: #faf9f6">
+        Copyright &copy; DiggieVPN all rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>

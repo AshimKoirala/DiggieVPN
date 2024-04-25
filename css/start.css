@@ -1,0 +1,59 @@
+.plans {
+  display: flex;
+  justify-content: space-around;
+}
+.plan-container {
+  width: 30%;
+  height: 450px;
+  background-color: #333;
+  opacity: 0.9;
+  border-radius: 10px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+.plans-head {
+  background-color: #f5f5f5;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+}
+
+.GetPlan {
+  background-color: antiquewhite;
+  margin-top: 30px;
+  padding: 10px;
+  font-size: 10px;
+  font-weight: 600;
+  color: #333;
+  border-radius: 5px;
+  position: relative;
+  text-align: center;
+  width: 100px;
+}
+.GetPlan:hover {
+  cursor: pointer;
+}
+h1 {
+  color: #e29b15;
+}
+.plans-list {
+  color: white;
+}
+.txt {
+  text-align: center;
+  margin: 30px;
+}
+@media (max-width: 576px) {
+  .plans {
+    flex-direction: column;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .plan-container {
+    width: 100%;
+  }
+}
